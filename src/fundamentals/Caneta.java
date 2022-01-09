@@ -1,6 +1,4 @@
-package aula01;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package fundamentals;
 
 public class Caneta {
 
@@ -9,10 +7,10 @@ public class Caneta {
     private float ponta;
     private boolean tampada;
 
-    public Caneta() {
-        this.modelo = "Bic";
-        this.cor = "Azul";
-        this.ponta = 0.7f;
+    public Caneta(String m, String c, float p) {
+        this.modelo = m;
+        this.cor = c;
+        this.ponta = p;
         this.tampar();
     }
 
